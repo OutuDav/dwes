@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DWES 09</title>
+    <style>
+      @import url("estilo.css");
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="codigo.js" defer></script>
+  </head>
+
+  <body>
+    <form>
+      <label for="texto">Buscar:</label>
+      <input
+        type="text"
+        name="texto"
+        id="texto"
+        placeholder="Introduce el título de un libro"
+        autocomplete="off"
+      />
+    </form>
+    <p id="respuesta"></p>
+    <p id="errorCaracteres">Solo puedes introducir caracteres en este campo.</p>
+  </body>
+</html>
